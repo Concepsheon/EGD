@@ -38,7 +38,7 @@ html, body {
     font-size: 1.5em;
     width: 100%;
     color: rgb(238, 238, 238);
-    background: #FF75BD;
+    background: #ffd1dc;
     padding-top: 10px;
     padding-right: 15px;
     height: 50px;
@@ -85,7 +85,7 @@ html, body {
 
 
 .service .service-title, .spotlight h3 {
-    color: #FF75BD;
+    color: #28ADD1;
     font-weight: 600;
 }
 
@@ -95,7 +95,7 @@ html, body {
 
 .sidebar-left {
     margin: 0;
-    height: 400px;
+    height: 435px;
     text-transform: uppercase;
     padding: 88px 0 0 40px;
     -webkit-box-sizing: border-box;
@@ -147,7 +147,7 @@ html, body {
 
 
 .location .glyphicon {
-    color: #FF75BD;
+    color: #28ADD1;
 }
 
 .wrapper {
@@ -235,7 +235,7 @@ image {
 }
 
 footer {
-  background-color: #FF75BD;
+  background-color: #ffd1dc;
   padding: 25px 0 5px 0;
   color: #b0b0b0;
   text-align: center;
@@ -247,21 +247,10 @@ footer .copyright {
   margin: 0 0 2em 0;
 }
 
-
-
-@media only screen and (max-width : 320px) {
-    
-    .centered-box-text {
-        position: absolute;
-        top: 10px;
-    }
-    
-    .centered-box-text h1 {
-        font-size: 16px;
-    }
-    
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .top-bar {
-        font-size: 16px;
-        text-align: center;
+        font-size: 14px;
+        height: 200px;
+        padding: 0;
     }
 }
