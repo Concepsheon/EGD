@@ -150,6 +150,10 @@ html, body {
     color: #28ADD1;
 }
 
+.location p {
+    font-size: 20px;
+}
+
 .wrapper {
     padding: 4.5em 0 2.5em 0;
     background-color: #ffffff;
@@ -247,10 +251,23 @@ footer .copyright {
   margin: 0 0 2em 0;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+@media screen and (max-width: 350px) {
     .top-bar {
-        font-size: 14px;
-        height: 200px;
+        font-size: 18px;
+        text-align: center;
         padding: 0;
+    }
+    
+    .centered-box-text h1 {
+        font-size: 3em;
+    }
+    
+    .sidebar-left {
+        height: 300px;
+    }
+    
+    .location p {
+        font-size: 16px;
     }
 }
