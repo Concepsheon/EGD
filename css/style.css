@@ -78,6 +78,17 @@ html, body {
     font-size: 8em;
 }
 
+.centered-box-text-2 {
+    position: absolute;
+    top: 50%;
+    left: 14%;
+    color: white;
+}
+
+.centered-box-text-2 h1 {
+    text-align: center;
+    font-size: 10em;
+}
 
 .alt-bg-color {
     background: #ededed;
@@ -131,6 +142,10 @@ html, body {
 
 .font_3 {
     font-size: 1.5em;
+}
+
+.centered {
+    margin: 0 auto;
 }
 
 .base-color {
@@ -283,6 +298,15 @@ footer .copyright {
 
 @media screen and (max-width: 550px) and (max-width: 750px) {
     
+    .centered-box-text-2 {
+        top: 23%;
+        left: 0;
+    }
+    
+    .centered-box-text-2 h1 {
+        font-size: 5em;
+    }
+    
     .wrapper > .inner {
         width: 100%;
     }
@@ -295,7 +319,26 @@ footer .copyright {
         margin: 0 auto;
     }
     
-    .spotlight .content h3, .btn-success {
+    .spotlight .content h3, .spotlight .content .description {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .centered-box-text, .centered-box-text-2 {
+        top: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .centered-box-text, .centered-box-text-2 {
+        top: 25%;
+    }
+    
+    .centered-box-text-2 {
+        left: 5%;
     }
 }
