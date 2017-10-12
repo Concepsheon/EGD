@@ -251,7 +251,17 @@ footer .copyright {
 
 @media only screen and (max-width : 320px) {
     
+    .centered-box-text {
+        position: absolute;
+        top: 10px;
+    }
+    
     .centered-box-text h1 {
-        font-size: 3em;
+        font-size: 16px;
+    }
+    
+    .top-bar {
+        font-size: 16px;
+        text-align: center;
     }
 }
