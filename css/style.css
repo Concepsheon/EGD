@@ -25,7 +25,7 @@ html, body {
 }
 
 .packages {
-    background: linear-gradient( rgba(76, 84, 106, 0.7), rgba(76, 84, 106, 0.7) ), url('../images/idea-group.jpg');
+    background: linear-gradient( rgba(76, 84, 106, 0.7), rgba(76, 84, 106, 0.7) ), url('../images/office.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -166,7 +166,7 @@ html, body {
 }
 
 .location p {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .wrapper {
