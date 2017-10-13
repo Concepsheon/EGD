@@ -26,12 +26,14 @@
         <![endif]-->
         
         
-        <header class="top-bar">
-            <p class="pull-right">CALL TODAY FOR A CONSULTATION 484-558-0657</p>
-        </header>
+        <div class="announcement">
+            <p class="announcement__content">
+                CALL TODAY FOR A CONSULTATION 484-558-0657
+            </p>
+        </div>
         
-        <div class="full-height services">
-            <nav class="navbar navbar-default">
+        <div class="full-height" style="height: 100%; background: linear-gradient( rgba(76, 84, 106, 0.7), rgba(76, 84, 106, 0.7) ), url('images/idea-group.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center;">
+            <nav class="navbar navbar-default primary-nav">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -50,19 +52,16 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="packages.html">Packages</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>       
+                            <li><a href="#" data-toggle="modal" data-target="#contactModal">Contact</a></li>        
                         </ul>
                     </div>
                 </div>
             </nav>
-            <div class="container">
-                <div class="centered-box">
-                    <div class="centered-box-text-2">
-                        <h1>Our Services</h1>
-                    </div>
-                </div>
+            <div class="hero">
+                <h1 class="title">Our Services</h1>
             </div>
         </div>
+        
         
         <section class="wrapper">
             <div class="inner alt">
@@ -148,7 +147,11 @@
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-
+        
+         <script type="text/javascript">
+            $('.title').delay(600).animate({'marginTop':'+=-80px','opacity':'1'},800);;
+        </script>
+        
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 
 
         <script>
