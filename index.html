@@ -15,7 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
-
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script type="text/javascript">
+            window.sr = ScrollReveal();
+        </script>
     </head>
 
     <body>
@@ -192,7 +195,7 @@
         <footer><p class="copyright">&copy; 2017 Exponential Growth & Development, LLC</p></footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         
         <script type="text/javascript">
             $(document).ready(function() {
@@ -201,19 +204,7 @@
                 $('.title').delay(600).animate({'marginTop':'+=-80px','opacity':'1'},800);
                 
                 // Fade in our services, about, contact
-                $(window).scroll( function(){
-                    // Check the location of each desired element
-                    $('.section-fadeIn').each( function(i){
-                        
-                        var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                        var bottom_of_window = $(window).scrollTop() + $(window).height();
-                        
-                        // If the object is completely visible in the window, fade it it
-                        if( bottom_of_window > bottom_of_object ){
-                            $(this).animate({'opacity':'1'},1500);
-                        }
-                    }); 
-                });
+                sr.reveal('.section-fadeIn');
             });
         </script> 
 

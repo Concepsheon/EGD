@@ -61,7 +61,7 @@ html, body {
 }
 
 .section-fadeIn {
-    opacity: 0;
+    visibility: hidden;
 }
 
 .alt-bg-color {
