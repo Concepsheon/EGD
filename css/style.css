@@ -229,7 +229,7 @@ html, body {
 
 footer {
   background-color: #ffd1dc;
-  padding: 25px 0 5px 0;
+  padding: 25px 0 10px 0;
   color: #b0b0b0;
   text-align: center;
 }
@@ -237,7 +237,6 @@ footer {
 footer .copyright {
   font-size: 18px;
   color: white;
-  margin: 0 0 2em 0;
 }
 
 
