@@ -3,56 +3,66 @@ html, body {
 }
 
 .announcement {
-    text-align: center;
-    color: #fff;
-    padding-bottom: 15px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #262626;
+    display: block;
+    height: auto;
+    border-bottom: 1px solid #999;
 }
 
-.announcement__content {
-    display: inline-block;
-    margin-bottom: 0;
+.announcement_content {
+    text-align: left;
+    margin: 7px 0px;
+    font-size: 12px;
+    color: white;
 }
 
-.announcement__content p {
-    margin: 0;
-    padding: 0;
+.logo-container {
+    background-color: #262626;
+    display: block;
+    height: auto;
 }
 
-.alt {
-    background: #ffd1dc;
-    font-size: 0.875em;
-    padding: 0.9375em;
+.logo {
+    color: #f0f0f0;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 4px;
+    margin-top: 1px;
+}
+
+.default-nav {
+    background-color: #f5f5f5;
 }
 
 .navbar-default {
     border-radius: 0;
     border: none;
-    background: transparent;
-}
-
-.navbar-default .navbar-nav > li  {
-    height: 66px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: white;
-    display: block;
-    font: 18px sans-serif;
+    color: #6b6b6b;
+    font: 14px sans-serif;
+    margin: -1px 0px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	padding: 14px 12px;
-	line-height: 38px;
 	transition: color .5s;
-	position: relative;
 }
 
+.default-nav .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
 .full-height .hero {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  top: 25%;
+  top: 30%;
   text-align: center;
 }
 
@@ -60,7 +70,7 @@ html, body {
   text-transform: uppercase;
   color: #fff;
   font-size: 7em;
-  margin-top: 60px;
+  margin-top: 0px;
   opacity: 0;
 }
 
@@ -72,6 +82,15 @@ html, body {
     background: #ededed;
 }
 
+#middle {
+    width: 100%;
+    height: 450px;
+    background: #ffd1dc;
+    background: linear-gradient( rgba(76, 84, 106, 0.7), rgba(76, 84, 106, 0.7) ),url('../images/image_strip.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .service .service-title, .spotlight h3 {
     color: #28ADD1;
@@ -128,18 +147,6 @@ html, body {
 .base-color {
     color: white;
 }
-
-#middle {
-    width: 100%;
-    height: 50px;
-    background: #ffd1dc;
-    /*background: linear-gradient( rgba(76, 84, 106, 0.7), rgba(76, 84, 106, 0.7) ),url('../images/bonding.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;*/
-}
-
 
 .location .glyphicon {
     color: #28ADD1;
