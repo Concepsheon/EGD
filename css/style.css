@@ -291,3 +291,11 @@ footer .copyright {
         text-align: center;
     }
 }
+
+.carousel {
+    margin: 0 auto;
+}
+
+.carousel-inner .item {
+    height: 300px;
+}
